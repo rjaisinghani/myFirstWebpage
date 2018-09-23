@@ -1,0 +1,130 @@
+/* Rohit Jaisinghani
+My stylish website
+v 1.0*/
+
+/*I organized my css file in order of how the html file is
+structured. I started with universal tag changes and then
+went into style changes. Some of the classes are empty.
+This is becuase I wanted them to be layed out should I want
+to modify them in the future. For the current version, I am
+satisfied with the styling. Who knows, when/if I learn
+Javascript, this page will get redone. */
+body {
+  background-color: lightblue
+}
+
+h1{
+  font-size: 40px;
+  text-align: center;
+}
+h2{
+  font-size: 30px;
+  text-align: center;
+  
+}
+
+h5{
+  font-size: 24px;
+  text-align: center;
+}
+p{
+  border-style: groove;
+  border-color: grey;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-size: 18px;
+  background-color: inherit;
+}
+
+.titleMain{
+  font-size: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+.intro{
+border-style: hidden;
+}
+.arcade{
+  img.resize;
+  height: auto;
+  width: 600px;
+
+}
+.screenshot{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.introdesc {
+  color:black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.game1Block{
+  border-style: inset;
+}
+.sfphoto{
+  img.resize;
+  height: auto;
+  width: 600px;
+}
+.game1Photo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.game1Desc{
+
+}
+.game2Block{
+  border-style: inset;
+}
+.tekkenphoto{
+  img.resize;
+  height: auto;
+  width: 600px;
+}
+.game2Photo{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.game2Desc{
+
+}
+.game3Block{
+  border-style: inset;
+}
+.mkphoto{
+  img.resize;
+  height: auto;
+  width: 600px;
+}
+.game3Photo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.game3Desc{
+
+}
+.references{
+  font-weight: bold;
+  text-align: center;
+  border-style: double;
+}
+/*
+Comments are only to help PEOPLE read a code file. The
+computer ignores them.
+*/
